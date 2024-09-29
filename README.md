@@ -7,9 +7,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 This project focuses on forecasting Tesla's stock prices using a deep learning model based on the GRU (Gated Recurrent Unit) architecture. GRU is a type of Recurrent Neural Network (RNN) that is effective for sequential data and is used here for time-series forecasting. The project demonstrates how to build and train a GRU model to predict future stock prices based on historical data.
