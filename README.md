@@ -34,22 +34,6 @@ The architecture includes:
 - GRU Layer(s): Extracts features from the time-series data.
 - Dense Layer: Outputs the predicted stock price.
 
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/tesla-stock-forecast-gru.git
-    cd tesla-stock-forecast-gru
-    ```
-
-2. Install the necessary dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Ensure that you have the correct dataset. You can download the dataset from Yahoo Finance or any other source, and save it in the `/data` folder as `tesla_stock_data.csv`.
-
 ## Usage
 Once the environment is set up and dependencies are installed, you can start training the model or run predictions:
 
@@ -68,23 +52,11 @@ Once the environment is set up and dependencies are installed, you can start tra
 - `predict.py`: Script to generate predictions from the trained GRU model.
 
 ## Results
-After training the GRU model, the stock price predictions for Tesla are evaluated based on common metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). Here’s a sample output:
-
-- **Training Loss**: 0.XXX
-- **Validation Loss**: 0.XXX
-- **Mean Squared Error (MSE)**: 0.XXX
+After training the GRU model, the stock price predictions for Tesla are evaluated based on common metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE).
 
 ### Visualization
 The project includes visualizations comparing the predicted stock prices and actual stock prices over time:
 
 ![Stock Price Prediction vs Actual](./results/prediction_vs_actual.png)
 
-## Contributing
-Contributions are welcome! If you'd like to improve the model, fix bugs, or add new features, feel free to fork the repository and submit a pull request. Please ensure that your code adheres to the style and documentation guidelines.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-## Acknowledgments
-- Thanks to Yahoo Finance for providing stock market data.
-- Special thanks to the developers of TensorFlow/Keras for their deep learning libraries.
